@@ -3,7 +3,7 @@ code {
   font-family: Consolas, Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, serif;
 }
 .jumbotron{
-     background-color: #615f5f;
+     background: #615f5f;
 }
 footer {
   display: block;
@@ -13,7 +13,7 @@ footer {
 }
 
 .body{
-  background-color:white;
+  background-color: white;
   overflow-x: hidden;
 }
 
@@ -23,8 +23,6 @@ footer {
 
 html {
   font-family: Sans-Serif;
- 
-  
 }
 
 
@@ -87,43 +85,8 @@ header::after{
   border-radius: 100px;
   padding: 15px ;
 }
-nav{
-  float: right;
-}
-nav ul {
-  margin: 0;
-  padding: 0;
-  list-style: none;
-}
-nav li{
-  display: inline-block;
-  margin-left: 70px;
-  padding-top: 23px;
-  position: relative;
-}
- nav a{
-  
-  color: white;
-}
-nav a:hover{
-  color: #4caf50;
-  text-decoration: none;
 
-}
-nav a::before{
-  content:'';
-  display: block;
-  height: 2px;
-  width: 100%;
-  background-color: #4caf50;
-  position: absolute;
-  top:0;
-  width:0%;
-  transition: all ease-in-out 250ms;
-}
-nav a:hover::before{
-  width: 100%;
-}
+ 
 .text{
   font-size: 20px;
   font-family: 'Menlo';
@@ -151,37 +114,4 @@ nav a:hover::before{
 
 .stats-card__unit-stats--barbarian .one-third {
   border-right: 1px solid black;
-}
-
-
-
-.stats-card__unit-stats {
-  color: white;
-  font-weight: 700;
-  border-radius: 20px;
-  background-image: linear-gradient(#4caf50,black);
-}
-.stats-card__unit-stats .one-third {
-  width: 33%;
-  float: left;
-  padding: 20px 15px;
-}
-.stats-card__unit-stats sup {
-  position: absolute;
-  bottom: 4px;
-  font-size: 45%;
-  margin-left: 2px;
-}
-.stats-card__unit-stats .stat {
-  position: relative;
-  font-size: 24px;
-  margin-bottom: 12px;
-}
-.stats-card__unit-stats .stat-value {
-  text-transform: uppercase;
-  font-weight: 400;
-  font-size: 12px;
-}
-.stats-card__unit-stats .no-border {
-  border-right: none;
 }

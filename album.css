@@ -41,3 +41,9 @@ footer p {
 .card:hover{
   transform: scale(1.05);
 }
+.vista{
+  transition: transform .2s;
+}
+.vista:hover{
+  transform: scale(1.05);
+}

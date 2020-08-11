@@ -47,3 +47,9 @@ footer p {
 .vista:hover{
   transform: scale(1.05);
 }
+
+@media (max-width: 100000px) {
+  .show {
+      display:none;
+  }
+}

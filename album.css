@@ -6,8 +6,8 @@
 }
 @media (min-width: 768px) {
   .jumbotron {
-    padding-top: 6rem;
-    padding-bottom: 6rem;
+    padding-top: 0rem;
+    padding-bottom: 0rem;
   }
 }
 
@@ -52,4 +52,8 @@ footer p {
   .show {
       display:none;
   }
+}
+
+html{
+
 }

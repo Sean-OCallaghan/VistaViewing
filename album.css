@@ -6,8 +6,8 @@
 }
 @media (min-width: 768px) {
   .jumbotron {
-    padding-top: 6rem;
-    padding-bottom: 6rem;
+    padding-top: 0rem;
+    padding-bottom: 0rem;
   }
 }
 
@@ -40,4 +40,20 @@ footer p {
 }
 .card:hover{
   transform: scale(1.05);
+}
+.vista{
+  transition: transform .2s;
+}
+.vista:hover{
+  transform: scale(1.05);
+}
+
+@media (max-width: 100000px) {
+  .show {
+      display:none;
+  }
+}
+
+html{
+
 }

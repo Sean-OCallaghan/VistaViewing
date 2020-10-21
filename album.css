@@ -1,6 +1,6 @@
 .jumbotron {
   padding-top: 3rem;
-  padding-bottom: 3rem;
+  padding-bottom: 50px;
   margin-bottom: 0;
   background-color: #fff;
 }
@@ -41,6 +41,12 @@ footer p {
 .card:hover{
   transform: scale(1.05);
 }
+.card-body{
+  transition: transform .2s;
+}
+.card-body:hover{
+  transform: scale(1.05);
+}
 .vista{
   transition: transform .2s;
 }
@@ -54,6 +60,13 @@ footer p {
   }
 }
 
-html{
-
+@media (min-width: 400px) {
+  .mobile{
+    display:none;
+  }
+ }
+@media (max-width: 400px) {
+ .desktop{
+   display:none;
+ }
 }

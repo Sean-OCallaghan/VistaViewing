@@ -69,4 +69,7 @@ footer p {
  .desktop{
    display:none;
  }
+ .col{
+   margin-right: 10px;
+ }
 }

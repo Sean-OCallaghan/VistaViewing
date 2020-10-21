@@ -60,12 +60,12 @@ footer p {
   }
 }
 
-@media (min-width: 400px) {
+@media (min-width: 420px) {
   .mobile{
     display:none;
   }
  }
-@media (max-width: 400px) {
+@media (max-width: 420px) {
  .desktop{
    display:none;
  }
